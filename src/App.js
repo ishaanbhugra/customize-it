@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './Components/Footer';
+import Left from './Components/Left';
+import Right from './Components/Right';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <h1 style={{textAlign:"center"}}>CUSTOMIZE-IT</h1>
+
+<div style={{justifyContent:"space-around", display:"flex", width:"90vw", margin:"auto"}}>
+
+   <div style={{textAlign:"center",width:"40vw",height:"85vh", border:"2px solid white"}}>
+   <Left />
+   </div>
+
+   <div style={{textAlign:"center",width:"40vw",height:"85vh", border:"2px solid white"}}>
+   <Right />
+   </div>
+
+</div>
+
+<Footer/>
+   </>
   );
 }
 
