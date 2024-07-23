@@ -10,13 +10,13 @@ function App() {
 
 <div style={{justifyContent:"space-around", display:"flex", width:"90vw", margin:"auto"}}>
 
-   <div style={{textAlign:"center",width:"40vw",height:"85vh", border:"2px solid white"}}>
+   <div style={{textAlign:"center",width:"90vw",height:"80vh", border:"2px solid white"}}>
    <Left />
    </div>
 
-   <div style={{textAlign:"center",width:"40vw",height:"85vh", border:"2px solid white"}}>
+   {/* <div style={{textAlign:"center",width:"40vw",height:"85vh", border:"2px solid white"}}>
    <Right />
-   </div>
+   </div> */}
 
 </div>
 
